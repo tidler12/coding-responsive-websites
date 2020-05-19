@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body{
+	margin:0px;
+	background:url(../img/symphony.png) repeat;
+	/* Background image from http://subtlepatterns.com/ */
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	color:DimGray;
+}
+
+#wrapper{
+	margin-top:150px;
+}
+
+h1.name{
+	color:tomato;
+	border:10px solid tomato;
+	padding:30px;
+	display:inline;
+}
+
+h2.title{
+	color: Salmon;
+	margin-top: 40px;
+    padding: 30px;
+}
+
+/* Contact Info Styles */
+.phone-number{
+	color:DarkSeaGreen;
+}
+
+a.e-mail{
+	color:DarkSeaGreen;
+	text-decoration:none;
+}
+
+/* -------------- Quote Styles ------------*/
+.quote{
+	font-style:italic;
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}
+
+
+.line-break{
+	border: 1px solid grey;
+    margin: 30px auto;
+    width: 50%;
+}
