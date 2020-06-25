@@ -109,6 +109,8 @@ body {
   height: 100%;
 }
 
+
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
@@ -116,7 +118,15 @@ body {
   font-weight: 400;
   background-color: #43424A;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+.div-1, .div-2, .div-3 {
+    line-height: 1.5em;
+    font-size: 1.3em;
+    padding: 1.5em;
+
+
 }
 
 .div-heading, .div-1, .div-2, .div-3 {
@@ -125,9 +135,6 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.3em;
-  padding: 1.5em;
   border-bottom: dashed 1px #EFF1F3;
 
 }
@@ -240,6 +247,7 @@ a {
         font-size: 2.3em;
     }
 
+
     p {
         font-size: 1.3em;
         line-height: 1.1em;
@@ -255,8 +263,8 @@ a {
         
     }
 
-    .div-heading {
-        font-size: 1.5em;
+  h2 {
+        font-size: 1.7em;
     }
 }
 
@@ -270,6 +278,11 @@ a {
     h1 {
         font-size: 3em;
     }
+
+    h2 {
+        font-size: 2em;
+    }
+
     p { 
         font-size: 1.5em;
         line-height: 1.2em;
@@ -282,9 +295,7 @@ a {
         border-bottom: none;
     }
 
-    .div-heading {
-        font-size: 1.8em;
-    }
+
 }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
