@@ -188,9 +188,10 @@ footer span {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 	flex-direction: row;
 }
+
 	
 	.section-two {
 		border-left: 1px solid #eee;
