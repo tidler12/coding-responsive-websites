@@ -10,7 +10,7 @@ body {
 	font-size: 1em;
 }
 
-.container{
+.container {
 	max-width: 1200px;
 	width: 90%;
 	display: flex;
@@ -28,7 +28,7 @@ h4 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 1.88em;
+	font-size: 2em;
 }
 h2 {
     font-size: 1.5em;
@@ -47,7 +47,7 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -56,9 +56,14 @@ header {
 }
 
 header h1 {
+	width: 100%;
 	margin: 0;
 	padding: 38px 0;
 	border-bottom: 3px solid #77a466;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
 }
 header h1 span {
 	color: #77a466;
@@ -66,6 +71,7 @@ header h1 span {
 
 header nav {
 	padding: 30px 0;
+	
 }
 header nav ul {
 	margin: 0;
@@ -77,6 +83,7 @@ header nav ul li {
 	font-size: .88em;
 	padding: 10px;
 	display: flex;
+	
 	
 }
 header nav ul li a{
@@ -101,6 +108,7 @@ header nav ul li a{
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
 }
 
 .main-title {
@@ -121,7 +129,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: auto;
+	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
 	display: flex;
@@ -129,12 +137,10 @@ header nav ul li a{
 	flex-direction: column;
 }
 
-.section-one h4 {
-	padding: 10px 0;
+.bottom-section h4 {
+	padding-top: 10px;
+
 }
-
-
-
 
 
 .menu {
@@ -160,6 +166,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 footer {
 	border-top: 3px solid #eee;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -204,12 +211,9 @@ p {
 
 /* DESKTOP MEDIA QUERY*/
 @media (min-width: 1200px) {
-	.section-two {
-		border-left: 1px solid #eee;
-		border-right: 1px solid #eee;
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
 	}
 
-	p {
-		padding: 0 30px;
-	}
 }
