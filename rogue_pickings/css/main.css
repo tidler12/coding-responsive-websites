@@ -184,6 +184,12 @@ footer span {
 /* TABLET MEDIA QUERY*/
 
 @media (min-width:768px) {
+
+	header nav ul {
+		display: flex;
+		align-items: row;
+	}
+	
 	.bottom-section {
 	margin: 0 auto;
 	display: flex;
@@ -212,9 +218,24 @@ p {
 
 /* DESKTOP MEDIA QUERY*/
 @media (min-width: 1200px) {
-	header nav ul {
+
+	header {
 		display: flex;
-		justify-content: space-between;
+		flex-direction: row;
+	}
+	
+
+
+	header h1 {
+		border-bottom: none;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	nav {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
 	}
 
 }
